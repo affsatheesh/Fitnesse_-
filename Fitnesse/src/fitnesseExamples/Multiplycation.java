@@ -2,12 +2,11 @@ package fitnesseExamples;
 
 import fit.ColumnFixture;
 
-public class Addition extends ColumnFixture
+public class Multiplycation extends ColumnFixture
 {
 	int num1;
 	int num2;
 	int result;
-	
 	public int getNum1() {
 		return num1;
 	}
@@ -26,9 +25,10 @@ public class Addition extends ColumnFixture
 	public void setResult(int result) {
 		this.result = result;
 	}
-    public int add()
-  {
-	result =  num1+num2;
+	public int add()
+	{
+	result = num1*num2;
 	return result;
-  }
+	}
+
 }
